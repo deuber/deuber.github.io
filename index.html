@@ -84,20 +84,22 @@
         height: 300px
     }
     
-    
 
     @media (max-width: @screen-xs) {
         body{font-size: 10px;}
-        tabfix {padding:0px 0px 0px 0px;}
     }
 
     @media (max-width: @screen-sm) {
         body{font-size: 14px;} 
-        tabfix {padding:0px 0px 0px 0px;}  
     }
 
+
     @media screen and (min-width: 480px) {
-        tabfix {padding:0px 1000px 0px 0px;}
+        tabfix {padding:0px 600px 0px 0px;}
+    }
+
+     @media screen and (max-width: 480px) {
+        tabfix {padding:0px 0px 0px 0px;}
     }
 
 
